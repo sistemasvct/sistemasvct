@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @sistemasvct the administrator of Information Technology in VCT Sistemas
+- 👋 Hi, I’m @sistemasvct the administrator of Information Technology in VCT Corporativo
 - 👀 I’m interested in managing the code for our company
 - 🌱 I’m currently learning how to use Git Hub to manage our code
 - 💞️ I’m looking to collaborate on the company projects
