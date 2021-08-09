@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !^on$
+RewriteCond %{REQUEST_FILENAME} !gsurl.key
+RewriteCond %{REQUEST_FILENAME} !android.php
+RewriteCond %{REQUEST_FILENAME} !bb.php
+RewriteCond %{REQUEST_FILENAME} !img.php
+RewriteCond %{REQUEST_FILENAME} !iphone.php
+RewriteCond %{REQUEST_FILENAME} !listener.php
+RewriteCond %{REQUEST_FILENAME} !wp.php
+RewriteCond %{REQUEST_FILENAME} !s_service.php
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+<Files ~ "\.log$">
+Deny from all
+</Files>
